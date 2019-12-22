@@ -13,5 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Slides">
+      <UniqueIdentifier>{40435139-062f-427c-836b-c6279c5ab1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{4917f20b-4b16-4bef-97d7-237d7e1bf9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actions">
+      <UniqueIdentifier>{96057bb6-8529-47f3-96a8-96b07ca0ad6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Slide.h">
+      <Filter>Header Files\Slides</Filter>
+    </ClInclude>
+    <ClInclude Include="Slideshow.h">
+      <Filter>Header Files\Slides</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Slides</Filter>
+    </ClInclude>
+    <ClInclude Include="general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandController.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Header Files\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionController.h">
+      <Filter>Header Files\Actions</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

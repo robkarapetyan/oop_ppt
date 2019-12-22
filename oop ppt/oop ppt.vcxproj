@@ -115,6 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CommandController.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionController.h" />
+    <ClInclude Include="Actions.h" />
+    <ClInclude Include="CommandController.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="general.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Slide.h" />
+    <ClInclude Include="Slideshow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
